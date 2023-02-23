@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+h2 {
+  text-align:center;
+  padding-top: 15%;
+  padding-bottom: 5%;
+  margin: auto;
+}
+ 
+.centerCard {
+  margin: auto;
+  width: 75%;
+  border-radius: 25px;
+  background: #f5f4e4;
+  padding: 20px;
+  height: 150px; 
+  padding: 10px;
+}
+
+
+.question {
+  text-align: center;
+  padding-top: 2.5%;
+}
+
+.answers {
+  text-align:center;
+  padding-top: 50px;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    margin: 2.5px;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }

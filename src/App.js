@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import "./App.css";
 
 let nextId = 0;
 
@@ -100,7 +101,8 @@ const Quiz = () => {
 
   return (
     <div className='quiz'>
-      <h2>Quiz</h2>
+      <h2>Hair Type Quiz</h2>
+      <div className='centerCard'>
       <div className='question'>
         {questions[currentQuestion].question}
       </div>
@@ -113,6 +115,7 @@ const Quiz = () => {
             {answer.option}
           </button>
         ))}
+      </div>
       </div>
     </div>
   );
